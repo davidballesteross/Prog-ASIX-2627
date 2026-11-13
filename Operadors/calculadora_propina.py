@@ -1,5 +1,3 @@
-# Calculadora 
-
 # Paso 1: Pedir el importe inicial
 importe = float(input("Importe de la cuenta: "))
 
@@ -13,7 +11,7 @@ propina = importe * porcentaje / 100
 total = importe + propina
 
 # Paso 5: Mostrar el resultado
-print("Importe inicial:", importe, "€")
-print("Propina (" + str(porcentaje) + "%):", propina, "€")
+print("Importe inicial:", importe, "euros")
+print("Propina (" + str(porcentaje) + "%):", propina, "euros")
 print("---------------------")
-print("Total a pagar:", total, "€")
+print("Total a pagar:", total, "euros")
